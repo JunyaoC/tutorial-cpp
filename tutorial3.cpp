@@ -41,32 +41,33 @@ int main(){
 	int a, b = 4, c = 0;
 	
 	//// 5a)
-	a = ++b - ++c;
+	
+	a = ++b - ++c;	
 	cout<<"5a) a="<<a<<" b="<<b<<" c="<<c<<endl;
 	
 	a = NULL;
 	b = 4;
 	c = 0;
 	//// 5b)
-	
-	a = b-- + --c;
+//	
+	//a = b-- + --c;	
 	cout<<"5b) a="<<a<<" b="<<b<<" c="<<c<<endl;
-	
-	a = NULL;
-	b = 4;
-	c = 0;
-
-	//// 5c)
-	a = b++ + ++c;
-	cout<<"5c) a="<<a<<" b="<<b<<" c="<<c<<endl;
-	
-	a = NULL;
-	b = 4;
-	c = 0;
-
-	//// 5d)
-	b = a = c--;
-	cout<<"5d) a="<<a<<" b="<<b<<" c="<<c<<endl;
+//	
+//	a = NULL;
+//	b = 4;
+//	c = 0;
+//
+//	//// 5c)
+//	a = b++ + ++c;
+//	cout<<"5c) a="<<a<<" b="<<b<<" c="<<c<<endl;
+//	
+//	a = NULL;
+//	b = 4;
+//	c = 0;
+//
+//	//// 5d)
+//	b = a = c--;
+//	cout<<"5d) a="<<a<<" b="<<b<<" c="<<c<<endl;
 	
 	return 0;
 	
